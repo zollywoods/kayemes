@@ -65,7 +65,7 @@ export default function Home() {
           508 West 26th Street <br/>
           Ground Floor & 8th Floor <br/>
           Bushwick, NY 10001 <br/>
-          <br/><br/>
+          <br/>
         (212) 463-7770 <br/>
         Email
         <br/><br/>
