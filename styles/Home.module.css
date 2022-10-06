@@ -71,6 +71,16 @@
   margin-top: 4px;
 }
 
+
+.imgHeaderMobile{
+  display: block;
+  list-style-type: none;
+  padding-left: 20px;
+  font-size:.9em;
+  padding-bottom: 20px;
+  width: 70%;
+}
+
 .poster{
   width:100%;
   display: block;
@@ -161,9 +171,22 @@
   .footerHours{
     width: 100%;
   }
+
+  .footerLine{
+    margin-top: 5px;
+  }
+  
   
   .menuListItem{
     display: none;
+  }
+
+  .imgHeader{
+    display: none;
+  }
+
+  .imgHeaderMobile{
+    display: block;
   }
 
 }
