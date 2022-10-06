@@ -34,7 +34,7 @@ export default function Home() {
     <div className={styles.middle}>
       <ul className={styles.imgHeader}> 
           <li className={styles.imgHeaderItem}> <span className={styles.exhibition}> Exhibition </span>    </li>
-          <li className={styles.imgHeaderItem}> John Luis Madalengolitia</li>
+          <li className={styles.imgHeaderItem}> John Asiago-Illuminated</li>
           <li className={styles.imgHeaderItem}> <i>when birds of prey fly at the same speed 
           as your driving</i>  
            </li>
