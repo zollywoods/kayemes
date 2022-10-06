@@ -22,7 +22,9 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: rgb(97, 29, 29);
+    /* color: white;
+    background: rgb(97, 29, 29); */
+    color: black;
+    background: white;
   }
 }
