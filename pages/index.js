@@ -26,7 +26,7 @@ export default function Home() {
         <li className={styles.menuListItem}> Viewing Room </li>
         <li className={styles.menuListItem}> News </li>
         <li className={styles.menuListItem}> About </li>
-        <li className={styles.menuKayemes}> KAYEMES </li>
+        <li className={styles.menuKayemes}> KAYEMESTEXAS </li>
       </ul>
     </div>
     <hr className={styles.line}/>
