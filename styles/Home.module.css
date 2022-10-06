@@ -1,3 +1,20 @@
+@font-face {
+  font-family: NeueKabelW01-Light;
+  src: url(/fonts/nkw-light/nkw-light.woff);
+}
+
+@font-face {
+  font-family: NeueKabelW01-Regular;
+  src: url(/fonts/nkw-regular/nkw-regular.woff);
+}
+
+@font-face {
+  font-family: P22CodaW01SC-SemiBoldSC;
+  src: url(/fonts/psw-semibold/psw-semibold.woff);
+}
+
+
+
 .container{
   position: relative;
   min-height: 100vh;
