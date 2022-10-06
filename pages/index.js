@@ -41,7 +41,7 @@ export default function Home() {
       </ul>
       <img src="imgs/johnPoster.jpg" className={styles.poster}/>
       <ul className={styles.imgHeaderMobile}> 
-          <li className={styles.imgHeaderItem}> John Luis Madalengolitia</li>
+          <li className={styles.imgHeaderItem}> John Asiago-Illuminated</li>
           <li className={styles.imgHeaderItem}> <i>when birds of prey fly at the same speed 
           as your driving</i>  
            </li>
