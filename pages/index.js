@@ -46,7 +46,7 @@ export default function Home() {
           as your driving</i>  
            </li>
            <li className={styles.imgHeaderItem}> 
-              October 2022 
+              October 2022  
            </li>
           
       </ul>
