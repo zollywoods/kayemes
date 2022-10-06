@@ -90,7 +90,8 @@ export default function Home() {
         10AM–6PM   <br/> <br/> <br/>
         To ensure the health and safety of our visitors and staff, 
         we ask all visitors to wear a mask and adhere to social distancing requirements.
-
+        <br/>  <br/>
+        <b> Powered by Synge</b> <img src="imgs/sponge.png"  className={styles.sponge}/>
 
           </div>
       </div>
