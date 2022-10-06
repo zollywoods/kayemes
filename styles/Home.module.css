@@ -4,6 +4,11 @@
   width: 100%;
 }
 
+.menuIcon{
+  display: none;
+}
+
+
 .menuList{
   display: flex;
   list-style-type: none;
@@ -184,7 +189,7 @@
   .imgHeader{
     display: none;
   }
-  
+
   .imgHeaderMobile{
     display: block;
     list-style-type: none;
@@ -193,5 +198,19 @@
     padding-bottom: 20px;
     width: 70%;
   }
+
+  .menuIcon{
+    display: inline;
+  }
+
+  .menuImg{
+    width: 10%;
+  }
+
+  .menuKayemes{
+    padding-right: 30px;
+    font-family: 'P22CodaW01SC-SemiBoldSC', sans-serif;
+  }
+  
 
 }

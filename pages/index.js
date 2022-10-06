@@ -20,6 +20,7 @@ export default function Home() {
     
     <div> 
       <ul className={styles.menuList}> 
+        <li className={styles.menuIcon}> <img src="imgs/menu.svg" className={styles.menuImg}/> </li>
         <li className={styles.menuListItem}> Artists </li>
         <li className={styles.menuListItem}> Exhibitions </li>
         <li className={styles.menuListItem}> Viewing Room </li>
@@ -47,6 +48,7 @@ export default function Home() {
            <li className={styles.imgHeaderItem}> 
               October 2022 
            </li>
+          
       </ul>
 
     </div>
