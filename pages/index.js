@@ -39,7 +39,7 @@ export default function Home() {
           as your driving</i>  
            </li>
       </ul>
-      <img src="imgs/johnPoster.jpg" className={styles.poster}/>
+      <img src="imgs/johnPoster-min.jpg" className={styles.poster}/>
       <ul className={styles.imgHeaderMobile}> 
           <li className={styles.imgHeaderItem}> John Asiago-Illuminated</li>
           <li className={styles.imgHeaderItem}> <i>when birds of prey fly at the same speed 
