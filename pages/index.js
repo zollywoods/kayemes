@@ -62,15 +62,15 @@ export default function Home() {
         <hr className={styles.footerLine}/>
         <span className={styles.footerKayemes}> KAYEMES</span> <br/>
         <div className={styles.footerContactText}>
-          508 West 26th Street <br/>
+          {/* 508 West 26th Street <br/>
           Ground Floor & 8th Floor <br/>
           Bushwick, NY 10001 <br/>
           <br/>
         (212) 463-7770 <br/>
-        Email
+        Email */}
         <br/><br/>
         ©2022–2022
-        <br/><br/><br/><br/>
+        <br/><br/><br/>
         </div>
 
 
