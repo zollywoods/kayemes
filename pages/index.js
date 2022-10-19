@@ -38,6 +38,8 @@ export default function Home() {
           <li className={styles.imgHeaderItem}> <i>when birds of prey fly at the same speed 
           as your driving</i>  
            </li>
+           <li className={styles.imgHeaderItem}><a href="/imgs/JPRelease.pdf"> Press Release </a></li>
+
       </ul>
       <img src="imgs/johnPoster-min.jpg" className={styles.poster}/>
       <ul className={styles.imgHeaderMobile}> 
@@ -47,8 +49,9 @@ export default function Home() {
            </li>
            <li className={styles.imgHeaderItem}> 
               October 2022  
-           </li>
-          
+           </li> <br/>
+           <li className={styles.imgHeaderItem}><a href="/imgs/JPRelease.pdf"> Press Release </a></li>
+
       </ul>
 
     </div>

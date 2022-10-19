@@ -96,9 +96,10 @@
 
 .imgHeaderMobile{
   display: none;
+  font-family: 'NeueKabelW01-Light';
   list-style-type: none;
   padding-left: 20px;
-  font-size:.9em;
+  font-size: 1.1em;
   padding-bottom: 20px;
   width: 70%;
 }
@@ -113,8 +114,16 @@
 }
 
 .imgHeaderItem{
-  padding-right: 15%;
+  padding-right: 10%;
 }
+
+.imgHeaderItem:last-child{
+  margin-left: auto;
+  padding-right: 20px;
+  color: rgb(102, 10, 10);
+
+}
+
 
 .footer{
   width: 100%;
@@ -218,7 +227,7 @@
     display: block;
     list-style-type: none;
     padding-left: 20px;
-    font-size:.9em;
+    font-size:1em;
     padding-bottom: 20px;
     width: 70%;
   }
