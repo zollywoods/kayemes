@@ -13,12 +13,19 @@
   src: url(/fonts/psw-semibold/psw-semibold.woff);
 }
 
+.hiddenMobileMenu{
+  display: none;
+}
 
+.visibleMobileMenu{
+display: none;}
 
 .container{
   position: relative;
   min-height: 100vh;
   width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .menuIcon{
@@ -66,6 +73,12 @@
   position: relative;
 }
 
+.exhibitionMiddle{
+  position: relative;
+  height:  60vh;
+  overflow-y: scroll;
+}
+
 
 .menuList{
   display: flex;
@@ -93,6 +106,29 @@
   margin-top: 4px;
 }
 
+.images{
+  display: block;
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+.exhibitionList{
+  display: flex;
+  list-style-type: none;
+  /* font-family: 'Fira Sans', sans-serif; */
+  font-family: 'NeueKabelW01-Light';
+  font-weight: 100;
+  font-size: 1.15em;
+  width: 100%;
+  padding-left: 20px;
+  margin-top: 4px;
+
+}
+
 
 .imgHeaderMobile{
   display: none;
@@ -104,6 +140,14 @@
   width: 70%;
 }
 
+.mobileMenuIcon{
+  display: none;
+}
+
+.imgTile{
+  width: 70%;
+  padding: 20px;
+}
 .poster{
   width:100%;
   display: block;
@@ -124,6 +168,25 @@
   font-size: .9em;
 }
 
+.exhibitionItem{
+  padding-right: 10%;
+}
+
+.exhibitionLine{
+  width: 98%;
+  margin: 0 auto;
+}
+
+.mobileMenuListItem{
+  display: none;
+}
+
+.mobileMenuList{
+  display: block;
+  text-decoration: none;
+}
+
+
 
 .footer{
   width: 100%;
@@ -134,6 +197,8 @@
   display: flex;
   font-family: 'NeueKabelW01-Regular';
   padding: 20px;
+  /* position: absolute;
+  bottom: 0; */
 }
 
 .exhibition{
@@ -232,18 +297,53 @@
     width: 70%;
   }
 
+  .mobileMenuIcon{
+    display: inline;
+  }
+
   .menuIcon{
     display: inline;
   }
 
   .menuImg{
-    width: 9%;
+    width: 13%;
   }
 
   .menuKayemes{
     padding-right: 30px;
     font-family: 'P22CodaW01SC-SemiBoldSC', sans-serif;
   }
+
+  .exhibitionItem{
+    font-size: .8em;
+  }
+
+  .imgTile{
+    width: 92%;
+    padding: 20px;
+  }
+
+  .mobileMenuList{
+    padding: 20px;
+  }
+
+  .mobileMenuListItem{
+    display: block;
+    margin-right: 0;
+    margin-left: 0;
+
+    font-size: 1.1em;
+  }
+
+
+.visibleMobileMenu{
+  display: block;
+  position: fixed;
+  top: 7%;
+  z-index: 500;
+  background-color: white;
+  width: 100%;
+} 
   
 
 }

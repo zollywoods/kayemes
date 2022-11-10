@@ -7,19 +7,19 @@ import React, { useState } from 'react';
 
 export default function Home() {
 
-  const [mobileMenu, setMobileMenu] = useState(styles.hiddenMobileMenu);
+    const [mobileMenu, setMobileMenu] = useState(styles.hiddenMobileMenu);
 
-  let clicked = () =>  {
-    console.log("CLICKED")
-    if(mobileMenu == styles.hiddenMobileMenu){
-      setMobileMenu(styles.visibleMobileMenu)
+    let clicked = () =>  {
+      console.log("CLICKED")
+      if(mobileMenu == styles.hiddenMobileMenu){
+        setMobileMenu(styles.visibleMobileMenu)
+      }
+      else{
+        setMobileMenu(styles.hiddenMobileMenu)
+  
+      }
     }
-    else{
-      setMobileMenu(styles.hiddenMobileMenu)
-
-    }
-  }
-
+  
   return (
     <div className={styles.container}>
       <Head>
@@ -37,55 +37,31 @@ export default function Home() {
     
     <div> 
       <ul className={styles.menuList}> 
-        <li className={styles.menuIcon} onClick={clicked}> <img src="imgs/menu.svg" className={styles.menuImg}/> </li>
-        {/* <li className={styles.mobileMenuListItem}> <img src="/icons/mbMenu.png" width="10%"/> </li> */}
-
+      <li className={styles.menuIcon} onClick={clicked}> <img src="imgs/menu.svg" className={styles.menuImg}/> </li>
         <li className={styles.menuListItem}> Artists </li>
-        <li className={styles.menuListItem}> <Link href="/exhibitions"> Exhibitions </Link> </li>
+        <li className={styles.menuListItem} onClick={clicked}> <Link href="/exhibitions"> Exhibitions </Link> </li>
         <li className={styles.menuListItem}> Viewing Room </li>
         <li className={styles.menuListItem}> News </li>
         <li className={styles.menuListItem}> About </li>
-
-        <li className={styles.menuKayemes}> KAYEMESTEXAS </li>
+        <li className={styles.menuKayemes}> <Link href="/"> KAYEMESTEXAS </Link> </li>
       </ul>
     </div>
     <hr className={styles.line}/>
 
-    <div className={styles.middle}>
-      <ul className={styles.imgHeader}> 
-          <li className={styles.imgHeaderItem}> <span className={styles.exhibition}> Exhibition </span>    </li>
-          <li className={styles.imgHeaderItem}>  <Link href="/john"> John Asiago-Illuminated </Link></li>
-          <li className={styles.imgHeaderItem}> <i>when birds of prey fly at the same speed 
-          as your driving</i>  
-           </li>
-           <li className={styles.imgHeaderItem}><Link href="/imgs/JPRelease.pdf"> Press Release </Link></li>
+    <div className={styles.exhibitionMiddle}>
+
+    <ul className={styles.exhibitionList}> 
+          <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/john"> John Asiago-Illuminated </Link>  </span>    </li>
+          <li className={styles.exhibitionItem}> October 2022</li>
+          {/* <li className={styles.exhibitionItem}> <i>2022</i>  </li> */}
+           {/* <li className={styles.imgHeaderItem}><a href="/imgs/JPRelease.pdf"> Press Release </a></li> */}
       </ul>
-      
-      <img src="imgs/johnPoster-min.jpg" className={styles.poster}/>
-      <ul className={styles.imgHeaderMobile}> 
-          <li className={styles.imgHeaderItem}> <Link href="/john"> John Asiago-Illuminated </Link></li>
-          <li className={styles.imgHeaderItem}> <i>when birds of prey fly at the same speed 
-          as your driving</i>  
-           </li>
-           <li className={styles.imgHeaderItem}> 
-              October 2022  
-           </li> <br/>
-           <li className={styles.imgHeaderItem}><Link href="/imgs/JPRelease.pdf"> Press Release </Link></li>
-
-      </ul>
-
-    </div>
-
-
-      <div className={mobileMenu}>
-        <ul className={styles.mobileMenuList}>
-          <li className={styles.mobileMenuListItem}> Artists </li>
-          <li className={styles.mobileMenuListItem}> <Link href="/exhibitions"> Exhibitions </Link> </li>
-          <li className={styles.mobileMenuListItem}> Viewing Room </li>
-          <li className={styles.mobileMenuListItem}> News </li>
-          <li className={styles.mobileMenuListItem}> About </li>
-        </ul>
+      <div className={styles.exhibitionLine}>
+      <hr/>
       </div>
+
+      
+    </div>
 
 
 
@@ -131,6 +107,18 @@ export default function Home() {
           </div>
       </div>
     </div>
+
+
+    <div className={mobileMenu}>
+        <ul className={styles.mobileMenuList}>
+          <li className={styles.mobileMenuListItem}> Artists </li>
+          <li className={styles.mobileMenuListItem}> <Link href="/exhibitions"> Exhibitions </Link> </li>
+          <li className={styles.mobileMenuListItem}> Viewing Room </li>
+          <li className={styles.mobileMenuListItem}> News </li>
+          <li className={styles.mobileMenuListItem}> About </li>
+        </ul>
+      </div>
+
     </div>
   )
 }

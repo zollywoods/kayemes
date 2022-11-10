@@ -7,19 +7,19 @@ import React, { useState } from 'react';
 
 export default function Home() {
 
-  const [mobileMenu, setMobileMenu] = useState(styles.hiddenMobileMenu);
+    const [mobileMenu, setMobileMenu] = useState(styles.hiddenMobileMenu);
 
-  let clicked = () =>  {
-    console.log("CLICKED")
-    if(mobileMenu == styles.hiddenMobileMenu){
-      setMobileMenu(styles.visibleMobileMenu)
+    let clicked = () =>  {
+      console.log("CLICKED")
+      if(mobileMenu == styles.hiddenMobileMenu){
+        setMobileMenu(styles.visibleMobileMenu)
+      }
+      else{
+        setMobileMenu(styles.hiddenMobileMenu)
+  
+      }
     }
-    else{
-      setMobileMenu(styles.hiddenMobileMenu)
-
-    }
-  }
-
+  
   return (
     <div className={styles.container}>
       <Head>
@@ -37,33 +37,33 @@ export default function Home() {
     
     <div> 
       <ul className={styles.menuList}> 
-        <li className={styles.menuIcon} onClick={clicked}> <img src="imgs/menu.svg" className={styles.menuImg}/> </li>
-        {/* <li className={styles.mobileMenuListItem}> <img src="/icons/mbMenu.png" width="10%"/> </li> */}
-
+      <li className={styles.menuIcon} onClick={clicked}> <img src="imgs/menu.svg" className={styles.menuImg}/> </li>
         <li className={styles.menuListItem}> Artists </li>
         <li className={styles.menuListItem}> <Link href="/exhibitions"> Exhibitions </Link> </li>
         <li className={styles.menuListItem}> Viewing Room </li>
         <li className={styles.menuListItem}> News </li>
         <li className={styles.menuListItem}> About </li>
-
-        <li className={styles.menuKayemes}> KAYEMESTEXAS </li>
+        <li className={styles.menuKayemes}> <Link href="/"> KAYEMESTEXAS </Link> </li>
       </ul>
     </div>
     <hr className={styles.line}/>
 
     <div className={styles.middle}>
-      <ul className={styles.imgHeader}> 
-          <li className={styles.imgHeaderItem}> <span className={styles.exhibition}> Exhibition </span>    </li>
-          <li className={styles.imgHeaderItem}>  <Link href="/john"> John Asiago-Illuminated </Link></li>
+
+    <ul className={styles.imgHeader}> 
+          {/* <li className={styles.imgHeaderItem}> <span className={styles.exhibition}> Exhibition </span>    </li> */}
+          <li className={styles.imgHeaderItem}><span className={styles.exhibition}> John Asiago-Illuminated </span>  </li>
           <li className={styles.imgHeaderItem}> <i>when birds of prey fly at the same speed 
           as your driving</i>  
            </li>
+           <li className={styles.imgHeaderItem}> October 2022</li>
+
            <li className={styles.imgHeaderItem}><Link href="/imgs/JPRelease.pdf"> Press Release </Link></li>
       </ul>
-      
-      <img src="imgs/johnPoster-min.jpg" className={styles.poster}/>
+
+
       <ul className={styles.imgHeaderMobile}> 
-          <li className={styles.imgHeaderItem}> <Link href="/john"> John Asiago-Illuminated </Link></li>
+          <li className={styles.imgHeaderItem}> John Asiago-Illuminated</li>
           <li className={styles.imgHeaderItem}> <i>when birds of prey fly at the same speed 
           as your driving</i>  
            </li>
@@ -74,18 +74,34 @@ export default function Home() {
 
       </ul>
 
+
+    <div className={styles.imgTile}>
+        <img src="/john/1.jpg" className={styles.images}/>
+        <img src="/john/3.jpg" className={styles.images}/>
+        <img src="/john/8.jpg" className={styles.images}/>
+        <img src="/john/10.jpg" className={styles.images}/>
+        <img src="/john/9.jpg" className={styles.images}/>
+        <img src="/john/2.jpg" className={styles.images}/>
+
+        <img src="/john/4.jpg" className={styles.images}/>
+
+        <img src="/john/5.jpg" className={styles.images}/>
+        <img src="/john/6.jpg" className={styles.images}/>
+        <img src="/john/7.jpg" className={styles.images}/>
+
+        <img src="/john/11.jpg" className={styles.images}/>
+        <img src="/john/12.jpg" className={styles.images}/>
+        <img src="/john/13.jpg" className={styles.images}/>
+        <img src="/john/14.jpg" className={styles.images}/>
+        <img src="/john/15.jpg" className={styles.images}/>
+
+    </div>
+      
     </div>
 
 
-      <div className={mobileMenu}>
-        <ul className={styles.mobileMenuList}>
-          <li className={styles.mobileMenuListItem}> Artists </li>
-          <li className={styles.mobileMenuListItem}> <Link href="/exhibitions"> Exhibitions </Link> </li>
-          <li className={styles.mobileMenuListItem}> Viewing Room </li>
-          <li className={styles.mobileMenuListItem}> News </li>
-          <li className={styles.mobileMenuListItem}> About </li>
-        </ul>
-      </div>
+
+
 
 
 
@@ -131,6 +147,16 @@ export default function Home() {
           </div>
       </div>
     </div>
+
+    <div className={mobileMenu}>
+        <ul className={styles.mobileMenuList}>
+          <li className={styles.mobileMenuListItem}> Artists </li>
+          <li className={styles.mobileMenuListItem}> <Link href="/exhibitions"> Exhibitions </Link> </li>
+          <li className={styles.mobileMenuListItem}> Viewing Room </li>
+          <li className={styles.mobileMenuListItem}> News </li>
+          <li className={styles.mobileMenuListItem}> About </li>
+        </ul>
+      </div>
     </div>
   )
 }
