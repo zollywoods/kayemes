@@ -95,6 +95,7 @@ export default function Home() {
         <img src="/john/14.jpg" className={styles.images}/>
         <img src="/john/15.jpg" className={styles.images}/>
 
+        <p> photography by Ryan Rusiecki </p>
     </div>
       
     </div>

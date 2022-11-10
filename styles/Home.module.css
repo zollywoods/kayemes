@@ -147,6 +147,7 @@ display: none;}
 .imgTile{
   width: 70%;
   padding: 20px;
+  font-size: .95em;
 }
 .poster{
   width:100%;
@@ -321,6 +322,7 @@ display: none;}
   .imgTile{
     width: 92%;
     padding: 20px;
+
   }
 
   .mobileMenuList{
