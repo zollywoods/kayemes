@@ -43,7 +43,7 @@ export default function Home() {
         {/* <li className={styles.menuListItem}> Viewing Room </li>
         <li className={styles.menuListItem}> News </li>
         <li className={styles.menuListItem}> About </li> */}
-        <li className={styles.menuKayemes}> <Link href="/"> KAYEMESTEXAS </Link> </li>
+        <li className={styles.menuKayemes}> <Link href="/"> KAYEMES </Link> </li>
       </ul>
     </div>
     <hr className={styles.line}/>
