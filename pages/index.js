@@ -40,11 +40,11 @@ export default function Home() {
         <li className={styles.menuIcon} onClick={clicked}> <img src="imgs/menu.svg" className={styles.menuImg}/> </li>
         {/* <li className={styles.mobileMenuListItem}> <img src="/icons/mbMenu.png" width="10%"/> </li> */}
 
-        <li className={styles.menuListItem}> Artists </li>
+        {/* <li className={styles.menuListItem}> Artists </li> */}
         <li className={styles.menuListItem}> <Link href="/exhibitions"> Exhibitions </Link> </li>
-        <li className={styles.menuListItem}> Viewing Room </li>
+        {/* <li className={styles.menuListItem}> Viewing Room </li>
         <li className={styles.menuListItem}> News </li>
-        <li className={styles.menuListItem}> About </li>
+        <li className={styles.menuListItem}> About </li> */}
 
         <li className={styles.menuKayemes}> KAYEMESTEXAS </li>
       </ul>
@@ -79,11 +79,11 @@ export default function Home() {
 
       <div className={mobileMenu}>
         <ul className={styles.mobileMenuList}>
-          <li className={styles.mobileMenuListItem}> Artists </li>
+          {/* <li className={styles.mobileMenuListItem}> Artists </li> */}
           <li className={styles.mobileMenuListItem}> <Link href="/exhibitions"> Exhibitions </Link> </li>
-          <li className={styles.mobileMenuListItem}> Viewing Room </li>
+          {/* <li className={styles.mobileMenuListItem}> Viewing Room </li>
           <li className={styles.mobileMenuListItem}> News </li>
-          <li className={styles.mobileMenuListItem}> About </li>
+          <li className={styles.mobileMenuListItem}> About </li> */}
         </ul>
       </div>
 
