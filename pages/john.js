@@ -36,10 +36,10 @@ export default function Home() {
       </Head>
     
     <div> 
-      <ul className={styles.menuList}> 
-      <li className={styles.menuIcon} onClick={clicked}> <img src="imgs/menu.svg" className={styles.menuImg}/> </li>
-        {/* <li className={styles.menuListItem}> Artists </li> */}
-        <li className={styles.menuListItem}> <Link href="/exhibitions"> Exhibitions </Link> </li>
+    <ul className={styles.menuList}> 
+    <li className={styles.menuIcon}> <a href="/"> <img src="imgs/books.jpg" className={styles.menuImg}/> </a> </li>
+        <li className={styles.menuListItem}>  <a href="/"> <img src="imgs/books.jpg" className={styles.bookImg}/>  </a> </li>
+        {/* <li className={styles.menuListItem} onClick={clicked}> <Link href="/exhibitions"> Exhibitions </Link> </li> */}
         {/* <li className={styles.menuListItem}> Viewing Room </li>
         <li className={styles.menuListItem}> News </li>
         <li className={styles.menuListItem}> About </li> */}
@@ -138,10 +138,10 @@ export default function Home() {
           Hours 
         <hr className={styles.footerLine}/>
         <div className={styles.footerContactText}>
-        Summer hours: Monday–Friday <br/>
-        10AM–6PM   <br/> <br/> <br/>
+        By Appointment <br/>
+        {/* 10AM–6PM   <br/> <br/> <br/>
         To ensure the health and safety of our visitors and staff, 
-        we ask all visitors to wear a mask and adhere to social distancing requirements.
+        we ask all visitors to wear a mask and adhere to social distancing requirements. */}
         <br/>  <br/>
         <b> Powered by Synge</b> <img src="imgs/sponge.png"  className={styles.sponge}/>
 
@@ -152,7 +152,7 @@ export default function Home() {
     <div className={mobileMenu}>
         <ul className={styles.mobileMenuList}>
           {/* <li className={styles.mobileMenuListItem}> Artists </li> */}
-          <li className={styles.mobileMenuListItem}> <Link href="/exhibitions"> Exhibitions </Link> </li>
+          {/* <li className={styles.mobileMenuListItem}> <Link href="/exhibitions"> Exhibitions </Link> </li> */}
           {/* <li className={styles.mobileMenuListItem}> Viewing Room </li>
           <li className={styles.mobileMenuListItem}> News </li>
           <li className={styles.mobileMenuListItem}> About </li> */}

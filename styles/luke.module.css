@@ -1,0 +1,388 @@
+@font-face {
+    font-family: NeueKabelW01-Light;
+    src: url(/fonts/nkw-light/nkw-light.woff);
+  }
+  
+  @font-face {
+    font-family: NeueKabelW01-Regular;
+    src: url(/fonts/nkw-regular/nkw-regular.woff);
+  }
+  
+  @font-face {
+    font-family: P22CodaW01SC-SemiBoldSC;
+    src: url(/fonts/psw-semibold/psw-semibold.woff);
+  }
+  
+  .hiddenMobileMenu{
+    display: none;
+  }
+
+  
+  .visibleMobileMenu{
+  display: none;}
+  
+  .bookImg{
+    width: 7%;
+  }
+
+
+  .container{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .menuIcon{
+    display: none;
+  }
+  
+  
+  .menuList{
+    display: flex;
+    list-style-type: none;
+    /* font-family: 'Fira Sans', sans-serif; */
+    font-family: 'NeueKabelW01-Light', sans-serif;
+    font-weight: 100;
+    font-size: 1.05em;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding-left: 20px;
+  }
+  
+  .menuListItem{
+    padding-right: 30px;
+  }
+  
+  .menuListItem:hover{
+    cursor: pointer;
+  }
+  
+  .blockImgs{
+    height: 60vh;
+    padding-right: 10px;
+  }
+
+  .heathImgs{
+    height: 75vh;
+    padding-right: 10px;
+  }
+  
+  .blockPairing{
+    display: flex;
+    width: 70%;
+    padding-bottom: 10px;
+    
+  }
+
+  
+  .menuKayemes{
+    margin-left: auto;
+    padding-right: 30px;
+    font-family: 'P22CodaW01SC-SemiBoldSC', sans-serif;
+  }
+  
+  .line{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 70px;
+    border-top: 1px;
+    margin-bottom: 15px;
+  }
+  
+  
+  .middle{
+    position: relative;
+  }
+  
+  .exhibitionMiddle{
+    position: relative;
+    height:  60vh;
+    overflow-y: scroll;
+  }
+  
+  
+  .menuList{
+    display: flex;
+    list-style-type: none;
+    /* font-family: 'Fira Sans', sans-serif; */
+    font-family: 'NeueKabelW01-Light';
+    font-weight: 100;
+    font-size: 1.05em;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding-left: 20px;
+  }
+  
+  
+  .imgHeader{
+    display: flex;
+    list-style-type: none;
+    /* font-family: 'Fira Sans', sans-serif; */
+    font-family: 'NeueKabelW01-Light';
+    font-weight: 100;
+    font-size: 1.15em;
+    width: 100%;
+    padding-left: 20px;
+    margin-top: 4px;
+  }
+  
+  .images{
+    display: block;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  
+  .exhibitionList{
+    display: flex;
+    list-style-type: none;
+    /* font-family: 'Fira Sans', sans-serif; */
+    font-family: 'NeueKabelW01-Light';
+    font-weight: 100;
+    font-size: 1.15em;
+    width: 100%;
+    padding-left: 20px;
+    margin-top: 4px;
+  
+  }
+  
+  
+  .imgHeaderMobile{
+    display: none;
+    font-family: 'NeueKabelW01-Light';
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 1.1em;
+    padding-bottom: 20px;
+    width: 70%;
+  }
+  
+  .mobileMenuIcon{
+    display: none;
+  }
+  
+  .imgTile{
+    width: 80%;
+    padding: 20px;
+    font-size: .95em;
+  }
+  .poster{
+    width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-bottom: 23%; */
+    padding-top: 1%;
+  }
+  
+  .imgHeaderItem{
+    padding-right: 10%;
+  }
+  
+  .imgHeaderItem:last-child{
+    margin-left: auto;
+    padding-right: 20px;
+    color: rgb(98, 98, 98);
+    font-size: .9em;
+  }
+  
+  .exhibitionItem{
+    padding-right: 10%;
+  }
+  
+  .exhibitionLine{
+    width: 98%;
+    margin: 0 auto;
+  }
+  
+  .mobileMenuListItem{
+    display: none;
+  }
+  
+  .mobileMenuList{
+    display: block;
+    text-decoration: none;
+  }
+  
+  
+  
+  .footer{
+    width: 100%;
+    background-color: beige;
+    color: black;
+    /* height: 26%; */
+    position: relative;
+    display: flex;
+    font-family: 'NeueKabelW01-Regular';
+    padding: 20px;
+    /* position: absolute;
+    bottom: 0; */
+  }
+  
+  .exhibition{
+    font-family: 'NeueKabelW01-Regular';
+  }
+  
+  .footerContact{
+    color: black;
+    font-size: 1.2em;
+    width: 33%;
+    /* padding: 20%; */
+  }
+  
+  .footerKayemes{
+    font-family: 'P22CodaW01SC-SemiBoldSC';
+    font-size: 1.1em;
+  }
+  
+  .footerContactText{
+    font-family: 'NeueKabelW01-Light';
+    font-size: .8em;
+  }
+  
+  .footerFollow{
+    color: black;
+    font-size: 1.2em;
+    width: 33%;
+  }
+  
+  .footerHours{
+    color: black;
+    font-size: 1.2em;
+    width: 33%;
+  }
+  
+  
+  .footerLine{
+    margin-right: 20px;
+    color: black;
+    margin-top: 30px;
+    background: black;
+    border-top: 2px solid;
+  }
+  
+  .sponge{
+    line-height: .1em;
+    margin-left: 8px;
+    padding-top: 20px;
+    width: 6%;
+  
+  }
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 1200px) {
+  
+    .footer{
+      display: block;
+      padding-bottom: 20%;
+    }
+  
+    .footerContact{
+      width: 100%;
+    }
+  
+    .footerFollow{
+      width: 100%;
+    }
+    
+    .footerHours{
+      width: 100%;
+    }
+  
+    .footerLine{
+      margin-top: 5px;
+    }
+    
+    
+    .menuListItem{
+      display: none;
+    }
+  
+    .imgHeader{
+      display: none;
+    }
+  
+    .imgHeaderMobile{
+      display: block;
+      list-style-type: none;
+      padding-left: 20px;
+      font-size:1em;
+      padding-bottom: 20px;
+      width: 70%;
+    }
+  
+
+    .mobileMenuIcon{
+      display: inline;
+    }
+  
+    .menuIcon{
+      display: inline;
+    }
+  
+    .menuImg{
+      width: 7%;
+    }
+  
+    .menuKayemes{
+      padding-right: 30px;
+      font-family: 'P22CodaW01SC-SemiBoldSC', sans-serif;
+    }
+  
+    .exhibitionItem{
+      font-size: .8em;
+    }
+  
+    .imgTile{
+      width: 92%;
+      padding: 20px;
+  
+    }
+  
+    .mobileMenuList{
+      padding: 20px;
+    }
+  
+    .mobileMenuListItem{
+      display: block;
+      margin-right: 0;
+      margin-left: 0;
+  
+      font-size: 1.1em;
+    }
+  
+  
+  .visibleMobileMenu{
+    display: block;
+    position: fixed;
+    top: 7%;
+    z-index: 500;
+    background-color: white;
+    width: 100%;
+  } 
+
+
+  .blockImgs{
+    height: 33vw;
+    padding-right: 10px;
+  }
+
+  .heathImgs{
+    height: 45vw;
+    padding-right: 10px;
+  }
+    
+    
+  
+  }

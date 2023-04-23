@@ -32,6 +32,11 @@ display: none;}
   display: none;
 }
 
+  
+.bookImg{
+  width: 7%;
+}
+
 
 .menuList{
   display: flex;
@@ -52,6 +57,17 @@ display: none;}
 
 .menuListItem:hover{
   cursor: pointer;
+}
+
+.blockImgs{
+  height: 500px;
+}
+
+.blockPairing{
+  display: flex;
+  width: 70%;
+  padding-bottom: 10px;
+
 }
 
 .menuKayemes{
@@ -307,7 +323,7 @@ display: none;}
   }
 
   .menuImg{
-    width: 13%;
+    width: 7%;
   }
 
   .menuKayemes{

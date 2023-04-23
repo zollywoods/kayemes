@@ -36,43 +36,51 @@ export default function Home() {
       </Head>
     
     <div> 
-      <ul className={styles.menuList}> 
-        <li className={styles.menuIcon} onClick={clicked}> <img src="imgs/menu.svg" className={styles.menuImg}/> </li>
-        {/* <li className={styles.mobileMenuListItem}> <img src="/icons/mbMenu.png" width="10%"/> </li> */}
-
-        {/* <li className={styles.menuListItem}> Artists </li> */}
-        <li className={styles.menuListItem}> <Link href="/exhibitions"> Exhibitions </Link> </li>
+    <ul className={styles.menuList}> 
+      <li className={styles.menuIcon}> <a href="/"> <img src="imgs/books.jpg" className={styles.menuImg}/> </a> </li>
+        <li className={styles.menuListItem}>   <a href="/"> <img src="imgs/books.jpg" className={styles.bookImg}/>  </a>  </li>
+        {/* <li className={styles.menuListItem} onClick={clicked}> <Link href="/exhibitions"> Exhibitions </Link> </li> */}
         {/* <li className={styles.menuListItem}> Viewing Room </li>
         <li className={styles.menuListItem}> News </li>
         <li className={styles.menuListItem}> About </li> */}
-
-        <li className={styles.menuKayemes}> KAYEMES </li>
+        <li className={styles.menuKayemes}> <Link href="/"> KAYEMES </Link> </li>
       </ul>
     </div>
     <hr className={styles.line}/>
 
-    <div className={styles.middle}>
-      <ul className={styles.imgHeader}> 
-          <li className={styles.imgHeaderItem}> <span className={styles.exhibition}> Exhibition </span>    </li>
-          <li className={styles.imgHeaderItem}>  <Link href="/john"> John Asiago-Illuminated </Link></li>
-          <li className={styles.imgHeaderItem}> <i>when birds of prey fly at the same speed 
-          as your driving</i>  
-           </li>
-           <li className={styles.imgHeaderItem}><Link href="/imgs/JPRelease.pdf"> Press Release </Link></li>
+    <div className={styles.exhibitionMiddle}>
+
+    <ul className={styles.exhibitionList}> 
+          <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/john"> John Asiago-Illuminated </Link>  </span>    </li>
+          <li className={styles.exhibitionItem}> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;October 2022</li>
+
+
+          {/* <li className={styles.exhibitionItem}> <i>2022</i>  </li> */}
+           {/* <li className={styles.imgHeaderItem}><a href="/imgs/JPRelease.pdf"> Press Release </a></li> */}
       </ul>
       
-      <img src="imgs/johnPoster-min.jpg" className={styles.poster}/>
-      <ul className={styles.imgHeaderMobile}> 
-          <li className={styles.imgHeaderItem}> <Link href="/john"> John Asiago-Illuminated </Link></li>
-          <li className={styles.imgHeaderItem}> <i>when birds of prey fly at the same speed 
-          as your driving</i>  
-           </li>
-           <li className={styles.imgHeaderItem}> 
-              October 2022  
-           </li> <br/>
-           <li className={styles.imgHeaderItem}><Link href="/imgs/JPRelease.pdf"> Press Release </Link></li>
+      <div className={styles.exhibitionLine}>
+        <hr/>
+      </div>
 
+      <ul className={styles.exhibitionList}> 
+          <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/lukeandzaid"> Luke Herrigel and Zaid Milefchik </Link>  </span>    </li>
+          <li className={styles.exhibitionItem}> March 2023</li>
       </ul>
+
+      <div className={styles.exhibitionLine}>
+        <hr/>
+      </div>
+
+
+      <ul className={styles.exhibitionList}> 
+          <li className={styles.exhibitionItem}> <span className={styles.exhibition}>  Andrew Christopher Green, Nilo Goldfarb, and Úlfur Logason  </span>    </li>
+          <li className={styles.exhibitionItem}> April 2023</li>
+      </ul>
+
+      <div className={styles.exhibitionLine}>
+        <hr/>
+      </div>
 
     </div>
 
@@ -121,16 +129,16 @@ export default function Home() {
           Hours 
         <hr className={styles.footerLine}/>
         <div className={styles.footerContactText}>
-        Summer hours: Monday–Friday <br/>
-        10AM–6PM   <br/> <br/> <br/>
+        By Appointment <br/>
+        {/* 10AM–6PM   <br/> <br/> <br/>
         To ensure the health and safety of our visitors and staff, 
-        we ask all visitors to wear a mask and adhere to social distancing requirements.
+        we ask all visitors to wear a mask and adhere to social distancing requirements. */}
         <br/>  <br/>
         <b> Powered by Synge</b> <img src="imgs/sponge.png"  className={styles.sponge}/>
 
           </div>
       </div>
-    </div>
+          </div>
     </div>
   )
 }
