@@ -83,6 +83,10 @@
     padding-right: 30px;
     font-family: 'P22CodaW01SC-SemiBoldSC', sans-serif;
   }
+
+  .menuKayemes:hover{
+    cursor: pointer;
+  }
   
   .line{
     margin-left: 20px;

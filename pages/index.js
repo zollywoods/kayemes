@@ -36,24 +36,27 @@ export default function Home() {
       </Head>
     
     <div> 
+    <Link href="/"> 
     <ul className={styles.menuList}> 
-      <li className={styles.menuIcon}> <a href="/"> <img src="imgs/books.jpg" className={styles.menuImg}/> </a> </li>
-        <li className={styles.menuListItem}>   <a href="/"> <img src="imgs/books.jpg" className={styles.bookImg}/>  </a>  </li>
+      <li className={styles.menuIcon}> <img src="imgs/books.jpg" className={styles.menuImg}/> </li>
+        <li className={styles.menuListItem}>    <img src="imgs/books.jpg" className={styles.bookImg}/>    </li>
         {/* <li className={styles.menuListItem} onClick={clicked}> <Link href="/exhibitions"> Exhibitions </Link> </li> */}
         {/* <li className={styles.menuListItem}> Viewing Room </li>
         <li className={styles.menuListItem}> News </li>
         <li className={styles.menuListItem}> About </li> */}
-        <li className={styles.menuKayemes}> <Link href="/"> KAYEMES </Link> </li>
+        <li className={styles.menuKayemes}>  KAYEMES </li>
       </ul>
+      </Link>
     </div>
     <hr className={styles.line}/>
 
     <div className={styles.exhibitionMiddle}>
 
     <ul className={styles.exhibitionList}> 
-          <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/john"> John Asiago-Illuminated </Link>  </span>    </li>
-          <li className={styles.exhibitionItem}> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;October 2022</li>
+          <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/andrewniloulf"> Andrew Christopher Green, Nilo Goldfarb, and Úlfur Logason  </Link> </span>    </li>
+          <li className={styles.dateItem}>April 2023</li>
 
+  
 
           {/* <li className={styles.exhibitionItem}> <i>2022</i>  </li> */}
            {/* <li className={styles.imgHeaderItem}><a href="/imgs/JPRelease.pdf"> Press Release </a></li> */}
@@ -65,7 +68,7 @@ export default function Home() {
 
       <ul className={styles.exhibitionList}> 
           <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/lukeandzaid"> Luke Herrigel and Zaid Milefchik </Link>  </span>    </li>
-          <li className={styles.exhibitionItem}> March 2023</li>
+          <li className={styles.dateItem}> March 2023</li>
       </ul>
 
       <div className={styles.exhibitionLine}>
@@ -74,8 +77,8 @@ export default function Home() {
 
 
       <ul className={styles.exhibitionList}> 
-          <li className={styles.exhibitionItem}> <span className={styles.exhibition}>  Andrew Christopher Green, Nilo Goldfarb, and Úlfur Logason  </span>    </li>
-          <li className={styles.exhibitionItem}> April 2023</li>
+      <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/john"> John Asiago-Illuminated </Link>  </span>    </li>
+          <li className={styles.dateItem}> October 2022</li>
       </ul>
 
       <div className={styles.exhibitionLine}>
@@ -112,7 +115,7 @@ export default function Home() {
         Hancock Street <br/>
         DM For Address   <br/>
         <br/><br/>
-        ©2022–2022
+        ©2022–
         <br/><br/><br/>
         </div>
 
@@ -122,7 +125,7 @@ export default function Home() {
           Follow 
         <hr className={styles.footerLine}/>
         <div className={styles.footerContactText}>
-            Instagram <br/><br/><br/><br/>
+        <Link href="https://www.instagram.com/kayemes_app/"> Instagram </Link> <br/><br/><br/><br/>
           </div>
       </div>
       <div className={styles.footerHours}>

@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/luke.module.css'
+import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import React, { useState } from 'react';
 
@@ -47,100 +47,86 @@ export default function Home() {
         <li className={styles.menuKayemes}>  KAYEMES </li>
       </ul>
       </Link>  
-    </div>
+        </div>
     <hr className={styles.line}/>
 
     <div className={styles.middle}>
 
     <ul className={styles.imgHeader}> 
           {/* <li className={styles.imgHeaderItem}> <span className={styles.exhibition}> Exhibition </span>    </li> */}
-          <li className={styles.imgHeaderItem}><span className={styles.exhibition}> Luke Herrigel and Zaid Milefchik </span>  </li>
-          <li className={styles.imgHeaderItem}> <i>Bonding</i>  
+          <li className={styles.imgHeaderItem}><span className={styles.exhibition}> Andrew Christopher Green, Nilo Goldfarb, and Úlfur Logason </span>  </li>
+          <li className={styles.imgHeaderItem}> <i>Los Angeles</i>  
            </li>
-           <li className={styles.imgHeaderItem}> March 2023 </li>
+           <li className={styles.imgHeaderItem}> May 6th - June 2nd </li>
 
-           <li className={styles.imgHeaderItem}><Link href="/imgs/bonding.pdf"> Press Release </Link></li>
-      </ul>
-
-
-      <ul className={styles.imgHeaderMobile}> 
-          <li className={styles.imgHeaderItem}> Luke Herrigel and Zaid Milefchik</li>
-          <li className={styles.imgHeaderItem}> <i>Bonding</i>  
-           </li>
-           <li className={styles.imgHeaderItem}> 
-              March 2023  
-           </li> <br/>
            <li className={styles.imgHeaderItem}><Link href="/imgs/JPRelease.pdf"> Press Release </Link></li>
 
+           <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>        <br/>
+          <br/>
+          <br/>
+          <br/>
+ 
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+
+      </ul>
+
+      <ul className={styles.imgHeaderMobile}> 
+          <li className={styles.imgHeaderItem}> Andrew Christopher Green, Nilo Goldfarb, and Úlfur Logason </li>
+          <li className={styles.imgHeaderItem}> <i>Los Angeles</i>  
+           </li>
+           <li className={styles.imgHeaderItem}> 
+           May 6th - June 2nd  
+           </li> <br/>      <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>        <br/>
+          <br/>
+          <br/>
+        
+          <br/>
+          <br/>
+
+           {/* <li className={styles.imgHeaderItem}><Link href="/imgs/JPRelease.pdf"> Press Release </Link></li> */}
+
       </ul>
 
 
-    <div className={styles.imgTile}>
-        <img src="/lukeandzaid/general.jpg" className={styles.images}/>
-        <img src="/lukeandzaid/26.jpg" className={styles.images}/>
-        <img src="/lukeandzaid/18.jpg" className={styles.images}/>
-        <img src="/lukeandzaid/17.jpg" className={styles.images}/>
+    {/* <div className={styles.imgTile}>
+        <img src="/john/1.jpg" className={styles.images}/>
+        <img src="/john/3.jpg" className={styles.images}/>
+        <img src="/john/8.jpg" className={styles.images}/>
+        <img src="/john/10.jpg" className={styles.images}/>
+        <img src="/john/9.jpg" className={styles.images}/>
+        <img src="/john/2.jpg" className={styles.images}/>
 
-        <img src="/lukeandzaid/19.jpg" className={styles.images}/>
+        <img src="/john/4.jpg" className={styles.images}/>
 
-        <img src="/lukeandzaid/12.jpg" className={styles.images}/>
-        <img src="/lukeandzaid/15.jpg" className={styles.images}/>
-        <img src="/lukeandzaid/350.jpg" className={styles.images}/>
-        <img src="/lukeandzaid/IMG_8607.jpeg" className={styles.images}/>
+        <img src="/john/5.jpg" className={styles.images}/>
+        <img src="/john/6.jpg" className={styles.images}/>
+        <img src="/john/7.jpg" className={styles.images}/>
 
-        <img src="/lukeandzaid/13.jpeg" className={styles.images}/>
-
-        <img src="/lukeandzaid/22.jpg" className={styles.images}/>
-
-        <img src="/lukeandzaid/25.jpg" className={styles.images}/>
-        <img src="/lukeandzaid/23.jpg" className={styles.images}/>
-        <img src="/lukeandzaid/24.jpg" className={styles.images}/>
-
-        <img src="/lukeandzaid/16.jpg" className={styles.images}/>
-        <img src="/lukeandzaid/351.jpeg" className={styles.images}/>
-        {/* <img src="/lukeandzaid/5000.jpg" className={styles.images}/> */}
-        <img src="/lukeandzaid/27.jpg" className={styles.images}/>
-        <img src="/lukeandzaid/311.jpeg" className={styles.images}/>
-
-        {/* <img src="/lukeandzaid/200.jpeg" className={styles.images}/>
-        <img src="/lukeandzaid/311.jpeg" className={styles.images}/> */}
-
-        <div className={styles.blockPairing}> 
-          <img src="/lukeandzaid/block4_h.jpg" className={styles.blockImgs}/>
-          <img src="/lukeandzaid/block1_b.jpg" className={styles.blockImgs}/>
-        </div>
-        <div className={styles.blockPairing}> 
-          <img src="/lukeandzaid/block3_h.jpg" className={styles.blockImgs}/>
-          <img src="/lukeandzaid/block2_b.jpg" className={styles.blockImgs}/>
-        </div>
-        <div className={styles.blockPairing}> 
-          <img src="/lukeandzaid/block2_h.jpg" className={styles.blockImgs}/>
-          <img src="/lukeandzaid/block3_b.jpg" className={styles.blockImgs}/>
-        </div>
-        <div className={styles.blockPairing}> 
-          <img src="/lukeandzaid/block1_h.jpg" className={styles.blockImgs}/>
-          <img src="/lukeandzaid/block4_b.jpg" className={styles.blockImgs}/>
-        </div>
-
-        <div className={styles.blockPairing}> 
-          <img src="/lukeandzaid/color1_h.jpg" className={styles.blockImgs}/>
-          <img src="/lukeandzaid/color1_b.jpg" className={styles.blockImgs}/>
-        </div>
-        <div className={styles.blockPairing}> 
-          <img src="/lukeandzaid/color2_h.jpg" className={styles.blockImgs}/>
-          <img src="/lukeandzaid/color2_b.jpg" className={styles.blockImgs}/>
-        </div>
-
-        <div className={styles.blockPairing}> 
-          <img src="/lukeandzaid/heath2.jpg" className={styles.heathImgs}/>
-          <img src="/lukeandzaid/heath1.jpg" className={styles.heathImgs}/>
-        </div>
-
-
-
+        <img src="/john/11.jpg" className={styles.images}/>
+        <img src="/john/12.jpg" className={styles.images}/>
+        <img src="/john/13.jpg" className={styles.images}/>
+        <img src="/john/14.jpg" className={styles.images}/>
+        <img src="/john/15.jpg" className={styles.images}/>
 
         <p> photography by Ryan Rusiecki </p>
-    </div>
+    </div> */}
       
     </div>
 
@@ -175,7 +161,7 @@ export default function Home() {
           Follow 
         <hr className={styles.footerLine}/>
         <div className={styles.footerContactText}>
-            <Link href="https://www.instagram.com/kayemes_app/"> Instagram </Link> <br/><br/><br/><br/>
+        <Link href="https://www.instagram.com/kayemes_app/"> Instagram </Link> <br/><br/><br/><br/>
           </div>
       </div>
       <div className={styles.footerHours}>

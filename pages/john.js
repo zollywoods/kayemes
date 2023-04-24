@@ -36,16 +36,18 @@ export default function Home() {
       </Head>
     
     <div> 
+    <Link href="/"> 
     <ul className={styles.menuList}> 
-    <li className={styles.menuIcon}> <a href="/"> <img src="imgs/books.jpg" className={styles.menuImg}/> </a> </li>
-        <li className={styles.menuListItem}>  <a href="/"> <img src="imgs/books.jpg" className={styles.bookImg}/>  </a> </li>
+      <li className={styles.menuIcon}> <img src="imgs/books.jpg" className={styles.menuImg}/> </li>
+        <li className={styles.menuListItem}>    <img src="imgs/books.jpg" className={styles.bookImg}/>    </li>
         {/* <li className={styles.menuListItem} onClick={clicked}> <Link href="/exhibitions"> Exhibitions </Link> </li> */}
         {/* <li className={styles.menuListItem}> Viewing Room </li>
         <li className={styles.menuListItem}> News </li>
         <li className={styles.menuListItem}> About </li> */}
-        <li className={styles.menuKayemes}> <Link href="/"> KAYEMES </Link> </li>
+        <li className={styles.menuKayemes}>  KAYEMES </li>
       </ul>
-    </div>
+      </Link>  
+        </div>
     <hr className={styles.line}/>
 
     <div className={styles.middle}>
@@ -121,7 +123,7 @@ export default function Home() {
         Hancock Street <br/>
         DM For Address   <br/>
         <br/><br/>
-        ©2022–2022
+        ©2022–
         <br/><br/><br/>
         </div>
 
@@ -131,7 +133,7 @@ export default function Home() {
           Follow 
         <hr className={styles.footerLine}/>
         <div className={styles.footerContactText}>
-            Instagram <br/><br/><br/><br/>
+        <Link href="https://www.instagram.com/kayemes_app/"> Instagram </Link> <br/><br/><br/><br/>
           </div>
       </div>
       <div className={styles.footerHours}>

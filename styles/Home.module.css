@@ -76,6 +76,10 @@ display: none;}
   font-family: 'P22CodaW01SC-SemiBoldSC', sans-serif;
 }
 
+.menuKayemes:hover{
+  cursor: pointer;
+}
+
 .line{
   margin-left: 20px;
   margin-right: 20px;
@@ -187,6 +191,11 @@ display: none;}
 
 .exhibitionItem{
   padding-right: 10%;
+}
+
+.dateItem{
+  position: absolute;
+  left: 70%;
 }
 
 .exhibitionLine{
@@ -331,8 +340,19 @@ display: none;}
     font-family: 'P22CodaW01SC-SemiBoldSC', sans-serif;
   }
 
+  .menuKayemes:hover{
+    cursor: pointer;
+  }
+
+
   .exhibitionItem{
     font-size: .8em;
+    width: 70%;
+  }
+
+  .dateItem{
+    font-size: .8em;
+    left: 75%;
   }
 
   .imgTile{
