@@ -54,7 +54,7 @@ export default function Home() {
 
     <ul className={styles.exhibitionList}> 
           <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/andrewniloulf"> Andrew Christopher Green, Nilo Goldfarb, and Úlfur Logason  </Link> </span>    </li>
-          <li className={styles.dateItem}>April 2023</li>
+          <li className={styles.dateItem}>May 2023</li>
 
   
 
