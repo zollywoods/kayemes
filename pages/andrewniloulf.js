@@ -59,7 +59,7 @@ export default function Home() {
            </li>
            <li className={styles.imgHeaderItem}> May 6th - June 2nd </li>
 
-           <li className={styles.imgHeaderItem}><Link href="/imgs/JPRelease.pdf"> Press Release </Link></li>
+           {/* <li className={styles.imgHeaderItem}><Link href="/imgs/JPRelease.pdf"> Press Release </Link></li> */}
 
            <br/>
           <br/>
