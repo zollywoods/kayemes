@@ -70,7 +70,7 @@ export default function Home() {
            <li className={styles.imgHeaderItem}> 
               March 2023  
            </li> <br/>
-           <li className={styles.imgHeaderItem}><Link href="/imgs/JPRelease.pdf"> Press Release </Link></li>
+           <li className={styles.imgHeaderItem}><Link href="/imgs/bonding.pdf"> Press Release </Link></li>
 
       </ul>
 
