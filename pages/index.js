@@ -53,7 +53,7 @@ export default function Home() {
     <div className={styles.exhibitionMiddle}>
 
     <ul className={styles.exhibitionList}> 
-          <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/andrewniloulf"> Andrew Christopher Green, Nilo Goldfarb, and Úlfur Logason  </Link> </span>    </li>
+          <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/andrewniloulf"> Andrew Christopher Green, Nilo Goldfarb, and Úlfur Loga  </Link> </span>    </li>
           <li className={styles.dateItem}>May 2023</li>
 
   

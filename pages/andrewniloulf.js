@@ -54,7 +54,7 @@ export default function Home() {
 
     <ul className={styles.imgHeader}> 
           {/* <li className={styles.imgHeaderItem}> <span className={styles.exhibition}> Exhibition </span>    </li> */}
-          <li className={styles.imgHeaderItem}><span className={styles.exhibition}> Andrew Christopher Green, Nilo Goldfarb, and Úlfur Logason </span>  </li>
+          <li className={styles.imgHeaderItem}><span className={styles.exhibition}> Andrew Christopher Green, Nilo Goldfarb, and Úlfur Loga </span>  </li>
           {/* <li className={styles.imgHeaderItem}> <i>Los Angeles</i>  
            </li> */}
            <li className={styles.imgHeaderItem}> May 6th - June 2nd </li>
