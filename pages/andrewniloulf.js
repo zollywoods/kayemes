@@ -82,7 +82,7 @@ export default function Home() {
       </ul>
 
       <ul className={styles.imgHeaderMobile}> 
-          <li className={styles.imgHeaderItem}> Andrew Christopher Green, Nilo Goldfarb, and Úlfur Logason </li>
+          <li className={styles.imgHeaderItem}> Andrew Christopher Green, Nilo Goldfarb, and Úlfur Loga </li>
           {/* <li className={styles.imgHeaderItem}> <i>Los Angeles</i>  
            </li> */}
            <li className={styles.imgHeaderItem}> 
