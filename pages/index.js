@@ -53,7 +53,7 @@ export default function Home() {
     <div className={styles.exhibitionMiddle}>
 
     <ul className={styles.exhibitionList}> 
-    <li className={styles.exhibitionItem}> <i> Current</i> </li> <br/> 
+    <li className={styles.exhibitionItem}> <i> Upcoming </i> </li> <br/> 
     </ul>
     <ul className={styles.exhibitionList}> 
 
