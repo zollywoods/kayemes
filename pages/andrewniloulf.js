@@ -57,7 +57,7 @@ export default function Home() {
           <li className={styles.imgHeaderItem}><span className={styles.exhibition}> Andrew Christopher Green, Nilo Goldfarb, and Úlfur Loga </span>  </li>
           {/* <li className={styles.imgHeaderItem}> <i>Los Angeles</i>  
            </li> */}
-           <li className={styles.imgHeaderItem}> May 6th - June 2nd </li>
+           <li className={styles.imgHeaderItem}> May 5th - June 2nd </li>
 
            {/* <li className={styles.imgHeaderItem}><Link href="/imgs/JPRelease.pdf"> Press Release </Link></li> */}
 
@@ -86,7 +86,7 @@ export default function Home() {
           {/* <li className={styles.imgHeaderItem}> <i>Los Angeles</i>  
            </li> */}
            <li className={styles.imgHeaderItem}> 
-           May 6th - June 2nd  
+           May 5th - June 2nd  
            </li> <br/>      <br/>
           <br/>
           <br/>

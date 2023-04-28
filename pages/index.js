@@ -53,15 +53,30 @@ export default function Home() {
     <div className={styles.exhibitionMiddle}>
 
     <ul className={styles.exhibitionList}> 
-          <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/andrewniloulf"> Andrew Christopher Green, Nilo Goldfarb, and Úlfur Loga  </Link> </span>    </li>
-          <li className={styles.dateItem}>May 2023</li>
+    <li className={styles.exhibitionItem}> <i> Current</i> </li> <br/> 
+    </ul>
+    <ul className={styles.exhibitionList}> 
+
+          <li className={styles.exhibitionItem}> <span className={styles.exhibition}>  Andrew Christopher Green, Nilo Goldfarb, and Úlfur Loga </span>    </li>
+          {/* <li className={styles.dateItem}>May 2023</li> */}
 
   
 
           {/* <li className={styles.exhibitionItem}> <i>2022</i>  </li> */}
            {/* <li className={styles.imgHeaderItem}><a href="/imgs/JPRelease.pdf"> Press Release </a></li> */}
       </ul>
+
+      <ul className={styles.dateList}> 
+        <li className={styles.exhibitionItem}> May 5th - June 2nd  </li>
+      </ul>
+
       
+
+      {/* <div className={styles.exhibitionLine}>
+        <hr/>
+      </div> */}
+
+      <br/><br/><br/>
       <div className={styles.exhibitionLine}>
         <hr/>
       </div>

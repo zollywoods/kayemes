@@ -150,6 +150,21 @@ display: none;}
 }
 
 
+.dateList{
+  display: flex;
+  list-style-type: none;
+  /* font-family: 'Fira Sans', sans-serif; */
+  font-family: 'NeueKabelW01-Light';
+  font-weight: 100;
+  font-size: 1.15em;
+  width: 100%;
+  padding-left: 20px;
+  margin-top: -13px;
+  padding-top: -10px;
+
+}
+
+
 .imgHeaderMobile{
   display: none;
   font-family: 'NeueKabelW01-Light';
@@ -347,12 +362,12 @@ display: none;}
 
   .exhibitionItem{
     font-size: .8em;
-    width: 70%;
+    width: 65%;
   }
 
   .dateItem{
     font-size: .8em;
-    left: 75%;
+    left: 70%;
   }
 
   .imgTile{
