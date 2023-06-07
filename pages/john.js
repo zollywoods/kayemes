@@ -130,10 +130,11 @@ export default function Home() {
 
       </div>
       <div className={styles.footerFollow}>
-          Follow 
+          Links 
         <hr className={styles.footerLine}/>
         <div className={styles.footerContactText}>
-        <Link href="https://www.instagram.com/kayemes_app/"> Instagram </Link> <br/><br/><br/><br/>
+        <Link href="https://www.instagram.com/kayemes_app/"> Instagram </Link> <br/>  <br/>
+        <b> <Link href="https://kayemesprogram.blogspot.com/"> Screenings / Programming </Link> <a href="https://kayemesprogram.blogspot.com/"> <img src="imgs/kms.jpg"  href="https://kayemesprogram.blogspot.com/" className={styles.kms}/>  </a></b> <br/><br/><br/>
           </div>
       </div>
       <div className={styles.footerHours}>
@@ -149,17 +150,7 @@ export default function Home() {
 
           </div>
       </div>
-    </div>
-
-    <div className={mobileMenu}>
-        <ul className={styles.mobileMenuList}>
-          {/* <li className={styles.mobileMenuListItem}> Artists </li> */}
-          {/* <li className={styles.mobileMenuListItem}> <Link href="/exhibitions"> Exhibitions </Link> </li> */}
-          {/* <li className={styles.mobileMenuListItem}> Viewing Room </li>
-          <li className={styles.mobileMenuListItem}> News </li>
-          <li className={styles.mobileMenuListItem}> About </li> */}
-        </ul>
-      </div>
+     </div>
     </div>
   )
 }

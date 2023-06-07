@@ -53,11 +53,11 @@ export default function Home() {
     <div className={styles.exhibitionMiddle}>
 
     <ul className={styles.exhibitionList}> 
-    <li className={styles.exhibitionItem}> <i> Current </i> </li> <br/> 
+    <li className={styles.exhibitionItem}> <i> Upcoming </i> </li> <br/> 
     </ul>
     <ul className={styles.exhibitionList}> 
 
-          <li className={styles.exhibitionItem}> <span className={styles.exhibition}>  Nilo Goldfarb, Andrew Christopher Green, and Úlfur Loga </span>    </li>
+          <li className={styles.exhibitionItem}> <span className={styles.exhibition}>  announcement soon  </span>    </li>
           {/* <li className={styles.dateItem}>May 2023</li> */}
 
   
@@ -67,7 +67,7 @@ export default function Home() {
       </ul>
 
       <ul className={styles.dateList}> 
-        <li className={styles.exhibitionItem}> May 5th - June 2nd  </li>
+        <li className={styles.exhibitionItem}>   </li>
       </ul>
 
       
@@ -76,7 +76,18 @@ export default function Home() {
         <hr/>
       </div> */}
 
-      <br/><br/><br/>
+<br/><br/><br/>
+      <div className={styles.exhibitionLine}>
+        <hr/>
+      </div>
+
+
+    <ul className={styles.exhibitionList}> 
+          <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/andrewniloulf"> Nilo Goldfarb, Andrew Christopher Green, and Úlfur Loga </Link>  </span>    </li>
+          <li className={styles.dateItem}> May 2023</li>
+      </ul>
+
+
       <div className={styles.exhibitionLine}>
         <hr/>
       </div>
@@ -137,10 +148,11 @@ export default function Home() {
 
       </div>
       <div className={styles.footerFollow}>
-          Follow 
+          Links 
         <hr className={styles.footerLine}/>
         <div className={styles.footerContactText}>
-        <Link href="https://www.instagram.com/kayemes_app/"> Instagram </Link> <br/><br/><br/><br/>
+        <Link href="https://www.instagram.com/kayemes_app/"> Instagram </Link> <br/>  <br/>
+        <b> <Link href="https://kayemesprogram.blogspot.com/"> Screenings / Programming </Link> <a href="https://kayemesprogram.blogspot.com/"> <img src="imgs/kms.jpg"  href="https://kayemesprogram.blogspot.com/" className={styles.kms}/>  </a></b> <br/><br/><br/>
           </div>
       </div>
       <div className={styles.footerHours}>
@@ -156,7 +168,7 @@ export default function Home() {
 
           </div>
       </div>
-          </div>
+     </div>
     </div>
   )
 }

@@ -54,82 +54,55 @@ export default function Home() {
 
     <ul className={styles.imgHeader}> 
           {/* <li className={styles.imgHeaderItem}> <span className={styles.exhibition}> Exhibition </span>    </li> */}
-          <li className={styles.imgHeaderItem}><span className={styles.exhibition}> Andrew Christopher Green, Nilo Goldfarb, and Úlfur Loga </span>  </li>
-          {/* <li className={styles.imgHeaderItem}> <i>Los Angeles</i>  
+          <li className={styles.imgHeaderItem}><span className={styles.exhibition}> Nilo Goldfarb, Andrew Christopher Green, and Úlfur Loga </span>  </li>
+          {/* <li className={styles.imgHeaderItem}> <i>when birds of prey fly at the same speed 
+          as your driving</i>  
            </li> */}
-           <li className={styles.imgHeaderItem}> May 5th - June 2nd </li>
+           <li className={styles.imgHeaderItem}> May 2023</li>
 
-           {/* <li className={styles.imgHeaderItem}><Link href="/imgs/JPRelease.pdf"> Press Release </Link></li> */}
-
-           <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>        <br/>
-          <br/>
-          <br/>
-          <br/>
- 
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-
+           <li className={styles.imgHeaderItem}><Link href="/imgs/anu.pdf"> Checklist/Info </Link></li>
       </ul>
+
 
       <ul className={styles.imgHeaderMobile}> 
-          <li className={styles.imgHeaderItem}> Andrew Christopher Green, Nilo Goldfarb, and Úlfur Loga </li>
-          {/* <li className={styles.imgHeaderItem}> <i>Los Angeles</i>  
+          <li className={styles.imgHeaderItem}> Nilo Goldfarb, Andrew Christopher Green, and Úlfur Loga</li>
+          {/* <li className={styles.imgHeaderItem}> <i>when birds of prey fly at the same speed 
+          as your driving</i>  
            </li> */}
            <li className={styles.imgHeaderItem}> 
-           May 5th - June 2nd  
-           </li> <br/>      <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>        <br/>
-          <br/>
-          <br/>
-        
-          <br/>
-          <br/>
-
-           {/* <li className={styles.imgHeaderItem}><Link href="/imgs/JPRelease.pdf"> Press Release </Link></li> */}
+           May 2023  
+           </li> <br/>
+           <li className={styles.imgHeaderItem}><Link href="/imgs/anu.pdf"> Checklist/Info </Link></li>
 
       </ul>
 
 
-    {/* <div className={styles.imgTile}>
-        <img src="/john/1.jpg" className={styles.images}/>
-        <img src="/john/3.jpg" className={styles.images}/>
-        <img src="/john/8.jpg" className={styles.images}/>
-        <img src="/john/10.jpg" className={styles.images}/>
-        <img src="/john/9.jpg" className={styles.images}/>
-        <img src="/john/2.jpg" className={styles.images}/>
+    <div className={styles.imgTile}>
+        <img src="/nau/k1.jpg" className={styles.images}/>
+        <img src="/nau/k2.jpg" className={styles.images}/>
+        <img src="/nau/k3fs.jpg" className={styles.images}/>
+        <img src="/nau/k4.jpg" className={styles.images}/>
+        <img src="/nau/k7.jpg" className={styles.images}/>
+        <img src="/nau/k8.jpeg" className={styles.images}/>
 
-        <img src="/john/4.jpg" className={styles.images}/>
+        <img src="/nau/k9.jpg" className={styles.images}/>
 
-        <img src="/john/5.jpg" className={styles.images}/>
-        <img src="/john/6.jpg" className={styles.images}/>
-        <img src="/john/7.jpg" className={styles.images}/>
+        <img src="/nau/k11.jpg" className={styles.images}/>
+        <img src="/nau/k12.jpg" className={styles.images}/>
+        <img src="/nau/k13final.jpg" className={styles.images}/>
 
-        <img src="/john/11.jpg" className={styles.images}/>
-        <img src="/john/12.jpg" className={styles.images}/>
-        <img src="/john/13.jpg" className={styles.images}/>
-        <img src="/john/14.jpg" className={styles.images}/>
-        <img src="/john/15.jpg" className={styles.images}/>
+        <img src="/nau/k14.jpg" className={styles.images}/>
+        <img src="/nau/k15.jpg" className={styles.images}/>
+        <img src="/nau/k16.jpg" className={styles.images}/>
+        <img src="/nau/k17.jpg" className={styles.images}/>
+        <img src="/nau/k18.jpg" className={styles.images}/>
+        <img src="/nau/k19.jpg" className={styles.images}/>
+        <img src="/nau/k20.jpg" className={styles.images}/>
 
         <p> photography by Ryan Rusiecki </p>
-    </div> */}
+    </div>
       
     </div>
-
 
 
 
@@ -158,10 +131,11 @@ export default function Home() {
 
       </div>
       <div className={styles.footerFollow}>
-          Follow 
+          Links 
         <hr className={styles.footerLine}/>
         <div className={styles.footerContactText}>
-        <Link href="https://www.instagram.com/kayemes_app/"> Instagram </Link> <br/><br/><br/><br/>
+        <Link href="https://www.instagram.com/kayemes_app/"> Instagram </Link> <br/>  <br/>
+        <b> <Link href="https://kayemesprogram.blogspot.com/"> Screenings / Programming </Link> <a href="https://kayemesprogram.blogspot.com/"> <img src="imgs/kms.jpg"  href="https://kayemesprogram.blogspot.com/" className={styles.kms}/>  </a></b> <br/><br/><br/>
           </div>
       </div>
       <div className={styles.footerHours}>
@@ -177,17 +151,7 @@ export default function Home() {
 
           </div>
       </div>
-    </div>
-
-    <div className={mobileMenu}>
-        <ul className={styles.mobileMenuList}>
-          {/* <li className={styles.mobileMenuListItem}> Artists </li> */}
-          {/* <li className={styles.mobileMenuListItem}> <Link href="/exhibitions"> Exhibitions </Link> </li> */}
-          {/* <li className={styles.mobileMenuListItem}> Viewing Room </li>
-          <li className={styles.mobileMenuListItem}> News </li>
-          <li className={styles.mobileMenuListItem}> About </li> */}
-        </ul>
-      </div>
+     </div>
     </div>
   )
 }
