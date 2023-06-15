@@ -76,7 +76,7 @@ export default function Home() {
 
 
     <div className={styles.imgTile}>
-        <img src="/lukeandzaid/general.jpg" title="Zaid Milefchik and Luke Herrigel" alt="Zaid Milefchik" className={styles.images}/>
+        <img src="/lukeandzaid/general.jpg" title="Zaid Milefchik and Luke Herrigel" alt="Zaid Milefchik and Luke Herrigel" className={styles.images}/>
         <img src="/lukeandzaid/26.jpg" className={styles.images}/>
         <img src="/lukeandzaid/18.jpg" className={styles.images}/>
         <img src="/lukeandzaid/17.jpg" className={styles.images}/>
@@ -99,8 +99,8 @@ export default function Home() {
         <img src="/lukeandzaid/16.jpg" className={styles.images}/>
         <img src="/lukeandzaid/351.jpeg" className={styles.images}/>
         {/* <img src="/lukeandzaid/5000.jpg" className={styles.images}/> */}
-        <img src="/lukeandzaid/27.jpg" alt="zaid milefchik" title="zaid milefchik" className={styles.images}/>
-        <img src="/lukeandzaid/311.jpeg" alt="zaid milefchik" title="zaid milefchik" className={styles.images}/>
+        <img src="/lukeandzaid/27.jpg" alt="zaid milefchik"className={styles.images}/>
+        <img src="/lukeandzaid/311.jpeg" alt="zaid milefchik" className={styles.images}/>
 
         {/* <img src="/lukeandzaid/200.jpeg" className={styles.images}/>
         <img src="/lukeandzaid/311.jpeg" className={styles.images}/> */}
@@ -118,8 +118,8 @@ export default function Home() {
           <img src="/lukeandzaid/block3_b.jpg" className={styles.blockImgs}/>
         </div>
         <div className={styles.blockPairing}> 
-          <img src="/lukeandzaid/block1_h.jpg "  alt="zaid milefchik" title="zaid milefchik" className={styles.blockImgs}/>
-          <img src="/lukeandzaid/block4_b.jpg"  alt="zaid milefchik"  title="zaid milefchik" className={styles.blockImgs}/>
+          <img src="/lukeandzaid/block1_h.jpg "  alt="zaid milefchik"  className={styles.blockImgs}/>
+          <img src="/lukeandzaid/block4_b.jpg"  alt="zaid milefchik"  className={styles.blockImgs}/>
         </div>
 
         <div className={styles.blockPairing}> 
@@ -127,8 +127,8 @@ export default function Home() {
           <img src="/lukeandzaid/color1_b.jpg" className={styles.blockImgs}/>
         </div>
         <div className={styles.blockPairing}> 
-          <img src="/lukeandzaid/color2_h.jpg"  alt="zaid milefchik" title="zaid milefchik" className={styles.blockImgs}/>
-          <img src="/lukeandzaid/color2_b.jpg" alt="zaid milefchik"  title="zaid milefchik" className={styles.blockImgs}/>
+          <img src="/lukeandzaid/color2_h.jpg"  alt="zaid milefchik" className={styles.blockImgs}/>
+          <img src="/lukeandzaid/color2_b.jpg" alt="zaid milefchik"   className={styles.blockImgs}/>
         </div>
 
         <div className={styles.blockPairing}> 
