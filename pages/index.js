@@ -58,7 +58,7 @@ export default function Home() {
     <ul className={styles.exhibitionList}> 
 
           <li className={styles.exhibitionItem}> <span className={styles.exhibition}>  Anabel Robinson and Chloe Hagger  </span>    </li>
-          <li className={styles.dateItem}>September 1st 2023</li>
+          <li className={styles.dateItem}>September 2023</li>
 
   
 
