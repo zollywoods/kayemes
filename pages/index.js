@@ -53,12 +53,12 @@ export default function Home() {
     <div className={styles.exhibitionMiddle}>
 
     <ul className={styles.exhibitionList}> 
-    <li className={styles.exhibitionItem}> <i> Current </i> </li> <br/> 
+    <li className={styles.exhibitionItem}> <i> Upcoming </i> </li> <br/> 
     </ul>
     <ul className={styles.exhibitionList}> 
 
-          <li className={styles.exhibitionItem}> <span className={styles.exhibition}>  Anabel Robinson and Chloe Hagger  </span>    </li>
-          <li className={styles.dateItem}>September 2023</li>
+          <li className={styles.exhibitionItem}> <span className={styles.exhibition}>  Eyrie Alzate  </span>    </li>
+          <li className={styles.dateItem}> November 3rd </li>
 
   
 
@@ -77,6 +77,18 @@ export default function Home() {
       </div> */}
 
 <br/><br/><br/>
+
+      <div className={styles.exhibitionLine}>
+        <hr/>
+      </div>
+
+
+    <ul className={styles.exhibitionList}> 
+          <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/chloeanabel"> Anabel Robinson and Chloe Hagger </Link>  </span>    </li>
+          <li className={styles.dateItem}> September 2023</li>
+      </ul>
+
+
       <div className={styles.exhibitionLine}>
         <hr/>
       </div>
