@@ -85,7 +85,7 @@ export default function Home() {
 
     <ul className={styles.exhibitionList}> 
           <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/chloeanabel"> Anabel Robinson and Chloe Hagger </Link>  </span>    </li>
-          <li className={styles.dateItem}> September 2023</li>
+          <li className={styles.dateItem}> Sep 2023</li>
       </ul>
 
 
@@ -106,7 +106,7 @@ export default function Home() {
 
       <ul className={styles.exhibitionList}> 
           <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/lukeandzaid"> Luke Herrigel and Zaid Milefchik </Link>  </span>    </li>
-          <li className={styles.dateItem}> March 2023</li>
+          <li className={styles.dateItem}> Mar 2023</li>
       </ul>
 
       <div className={styles.exhibitionLine}>
@@ -116,7 +116,7 @@ export default function Home() {
 
       <ul className={styles.exhibitionList}> 
       <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/john"> John Asiago-Illuminated </Link>  </span>    </li>
-          <li className={styles.dateItem}> October 2022</li>
+          <li className={styles.dateItem}> Oct 2022</li>
       </ul>
 
       <div className={styles.exhibitionLine}>
