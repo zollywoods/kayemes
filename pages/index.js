@@ -58,7 +58,7 @@ export default function Home() {
     <ul className={styles.exhibitionList}> 
 
           <li className={styles.exhibitionItem}> <span className={styles.exhibition}>  Eyrie Alzate  </span>    </li>
-          <li className={styles.dateItem}> November 3rd </li>
+          <li className={styles.dateItem}> November  </li>
 
   
 
