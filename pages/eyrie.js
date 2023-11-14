@@ -7,19 +7,19 @@ import React, { useState } from 'react';
 
 export default function Home() {
 
-  const [mobileMenu, setMobileMenu] = useState(styles.hiddenMobileMenu);
+    const [mobileMenu, setMobileMenu] = useState(styles.hiddenMobileMenu);
 
-  let clicked = () =>  {
-    console.log("CLICKED")
-    if(mobileMenu == styles.hiddenMobileMenu){
-      setMobileMenu(styles.visibleMobileMenu)
+    let clicked = () =>  {
+      console.log("CLICKED")
+      if(mobileMenu == styles.hiddenMobileMenu){
+        setMobileMenu(styles.visibleMobileMenu)
+      }
+      else{
+        setMobileMenu(styles.hiddenMobileMenu)
+  
+      }
     }
-    else{
-      setMobileMenu(styles.hiddenMobileMenu)
-
-    }
-  }
-
+  
   return (
     <div className={styles.container}>
       <Head>
@@ -46,95 +46,50 @@ export default function Home() {
         <li className={styles.menuListItem}> About </li> */}
         <li className={styles.menuKayemes}>  KAYEMES </li>
       </ul>
-      </Link>
-    </div>
+      </Link>  
+        </div>
     <hr className={styles.line}/>
 
-    <div className={styles.exhibitionMiddle}>
+    <div className={styles.middle}>
 
-    <ul className={styles.exhibitionList}> 
-    <li className={styles.exhibitionItem}> <i> Current </i> </li> <br/> 
-    </ul>
-    <ul className={styles.exhibitionList}> 
+    <ul className={styles.imgHeader}> 
+          {/* <li className={styles.imgHeaderItem}> <span className={styles.exhibition}> Exhibition </span>    </li> */}
+          <li className={styles.imgHeaderItem}><span className={styles.exhibition}> Eyrie Alzate &nbsp; - &nbsp; <strong> Forces </strong>  </span>  </li>
+          {/* <li className={styles.imgHeaderItem}> <i>when birds of prey fly at the same speed 
+          as your driving</i>  
+           </li> */}
+           <li className={styles.imgHeaderItem}> Nov 11 - Dec 21 &nbsp; 2023</li>
 
-          <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/eyrie"> Eyrie Alzate </Link>    </span>    </li>
-          <li className={styles.dateItem}> November  </li>
-
-  
-
-          {/* <li className={styles.exhibitionItem}> <i>2022</i>  </li> */}
-           {/* <li className={styles.imgHeaderItem}><a href="/imgs/JPRelease.pdf"> Press Release </a></li> */}
+           <li className={styles.imgHeaderItem}><Link href="/eyrie/PR_C.pdf"> Press Release/Checklist </Link></li>
       </ul>
 
-      <ul className={styles.dateList}> 
-        <li className={styles.exhibitionItem}>   </li>
+
+      <ul className={styles.imgHeaderMobile}> 
+          <li className={styles.imgHeaderItem}> Eyrie Alzate &nbsp; - &nbsp; <strong> Forces </strong>  </li>
+          {/* <li className={styles.imgHeaderItem}> <i>when birds of prey fly at the same speed 
+          as your driving</i>  
+           </li> */}
+           <li className={styles.imgHeaderItem}> 
+           Nov 11 - Dec 21 &nbsp; 2023  
+           </li> <br/>
+           <li className={styles.imgHeaderItem}><Link href="/eyrie/PR_C.pdf"> Press Release/Checklist </Link></li>
+
       </ul>
 
+
+    <div className={styles.imgTile}>
+        <img src="/eyrie/e.jpeg" className={styles.images}/>
+        <br/><br/><br/><br/> 
+        <p> Make an appointment by Instagram DM or contacting lherrigel@gmail.com </p>
+        <b> Open hours on Sunday November 19th 6:30 PM - 9:00 PM </b>
+        <br/><br/> 
+        <p> </p>
+    </div>
       
-
-      {/* <div className={styles.exhibitionLine}>
-        <hr/>
-      </div> */}
-
-<br/><br/><br/>
-
-      <div className={styles.exhibitionLine}>
-        <hr/>
-      </div>
-
-
-    <ul className={styles.exhibitionList}> 
-          <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/chloeanabel"> Anabel Robinson and Chloe Hagger </Link>  </span>    </li>
-          <li className={styles.dateItem}> Sep 2023</li>
-      </ul>
-
-
-      <div className={styles.exhibitionLine}>
-        <hr/>
-      </div>
-
-
-    <ul className={styles.exhibitionList}> 
-          <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/andrewniloulf"> Nilo Goldfarb, Andrew Christopher Green, and Úlfur Loga </Link>  </span>    </li>
-          <li className={styles.dateItem}> May 2023</li>
-      </ul>
-
-
-      <div className={styles.exhibitionLine}>
-        <hr/>
-      </div>
-
-      <ul className={styles.exhibitionList}> 
-          <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/lukeandzaid"> Luke Herrigel and Zaid Milefchik </Link>  </span>    </li>
-          <li className={styles.dateItem}> Mar 2023</li>
-      </ul>
-
-      <div className={styles.exhibitionLine}>
-        <hr/>
-      </div>
-
-
-      <ul className={styles.exhibitionList}> 
-      <li className={styles.exhibitionItem}> <span className={styles.exhibition}> <Link href="/john"> John Asiago-Illuminated </Link>  </span>    </li>
-          <li className={styles.dateItem}> Oct 2022</li>
-      </ul>
-
-      <div className={styles.exhibitionLine}>
-        <hr/>
-      </div>
-
     </div>
 
 
-      <div className={mobileMenu}>
-        <ul className={styles.mobileMenuList}>
-          {/* <li className={styles.mobileMenuListItem}> Artists </li> */}
-          <li className={styles.mobileMenuListItem}> <Link href="/exhibitions"> Exhibitions </Link> </li>
-          {/* <li className={styles.mobileMenuListItem}> Viewing Room </li>
-          <li className={styles.mobileMenuListItem}> News </li>
-          <li className={styles.mobileMenuListItem}> About </li> */}
-        </ul>
-      </div>
+
 
 
 
