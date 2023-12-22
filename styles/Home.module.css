@@ -301,6 +301,29 @@ display: none;}
 
 }
 
+.addDoc{
+  margin-top: 50px;
+  font-size: 1.4em;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: black;
+  padding: 15px;
+  background-color: rgb(231, 231, 231);
+  display: inline-block;
+}
+
+.addDoc:hover{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -408,5 +431,9 @@ display: none;}
   width: 100%;
 } 
   
+.addDoc{
+  font-size: 1.1em;
+}
+
 
 }

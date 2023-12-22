@@ -61,6 +61,9 @@ export default function Home() {
            <li className={styles.imgHeaderItem}> Nov 11 - Dec 21 &nbsp; 2023</li>
 
            <li className={styles.imgHeaderItem}><Link href="/eyrie/PR_C.pdf"> Press Release/Checklist </Link></li>
+           <Link  href="https://imgur.com/a/gOzwoHV"> Invitation </Link>
+
+
       </ul>
 
 
@@ -73,18 +76,61 @@ export default function Home() {
            Nov 11 - Dec 21 &nbsp; 2023  
            </li> <br/>
            <li className={styles.imgHeaderItem}><Link href="/eyrie/PR_C.pdf"> Press Release/Checklist </Link></li>
+           {/* <Link href="/eyrie/PR_C.pdf"> Invitation </Link> */}
+           <Link href="https://imgur.com/a/gOzwoHV"> Invitation </Link>
 
       </ul>
 
+      <br/> <br/>
+
+      {/* <ul className={styles.imgHeader}> 
+
+       <Link href="https://imgur.com/a/gOzwoHV"> Invitation </Link>
+
+      </ul> */}
 
     <div className={styles.imgTile}>
-        <img src="/eyrie/e.jpeg" className={styles.images}/>
-        <br/><br/><br/><br/> 
-        <p> Make an appointment by Instagram DM or contacting lherrigel@gmail.com </p>
-        <b> Open hours on Sunday November 19th 6:30 PM - 9:00 PM </b>
-        <br/><br/> 
-        <p> </p>
+        <img src="/eyrie/eyrie-alzate.jpeg" alt="Eyrie Alzate Exhibition View" className={styles.images}/>
+        <img src="/eyrie/002.jpeg" className={styles.images}/>
+        <img src="/eyrie/003.jpeg" className={styles.images}/>
+        <img src="/eyrie/004.jpeg" className={styles.images}/>
+        <img src="/eyrie/005.jpeg" className={styles.images}/>
+        <img src="/eyrie/006.jpeg" className={styles.images}/>
+        <img src="/eyrie/007.jpeg" className={styles.images}/>
+        <img src="/eyrie/008.jpeg" className={styles.images}/>
+        <img src="/eyrie/009.jpeg" className={styles.images}/>
+        <img src="/eyrie/010.jpeg" className={styles.images}/>
+        <img src="/eyrie/011.jpeg" className={styles.images}/>
+        <img src="/eyrie/012.jpeg" className={styles.images}/>
+        <img src="/eyrie/013.jpeg" className={styles.images}/>
+        <img src="/eyrie/014.jpeg" className={styles.images}/>
+        <img src="/eyrie/015.jpeg" className={styles.images}/>
+        <img src="/eyrie/016.jpeg" className={styles.images}/>
+        <img src="/eyrie/017.jpeg" className={styles.images}/>
+        <img src="/eyrie/018.jpeg" className={styles.images}/>
+        <img src="/eyrie/019.jpeg" className={styles.images}/>
+        <img src="/eyrie/020.jpeg" className={styles.images}/>
+        <img src="/eyrie/021.jpeg" className={styles.images}/>
+        <img src="/eyrie/022.jpeg" className={styles.images}/>
+        <img src="/eyrie/023.jpeg" className={styles.images}/>
+        <img src="/eyrie/024.jpeg" className={styles.images}/>
+        <img src="/eyrie/025.jpeg" className={styles.images}/>
+        <img src="/eyrie/026.jpeg" className={styles.images}/>
+        <img src="/eyrie/027.jpeg" className={styles.images}/>
+        <img src="/eyrie/028.jpeg" className={styles.images}/>
+
+        <p> photography by Ryan Rusiecki </p>
+
+
+        <Link href="https://irimias.neocities.org/forces-installation"> 
+        <div>
+            <p className={styles.addDoc}> Additional Documentation  </p>
+        </div>
+        </Link> 
+
     </div>
+
+  
       
     </div>
 
