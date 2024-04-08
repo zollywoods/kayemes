@@ -57,8 +57,8 @@ export default function Home() {
     </ul>
     <ul className={styles.exhibitionList}> 
 
-          <li className={styles.exhibitionItem}> <span className={styles.exhibition}>  TBA   </span>    </li>
-          {/* <li className={styles.dateItem}> November  </li> */}
+          <li className={styles.exhibitionItem}> <span className={styles.exhibition}>  Wiley Guillot and Nicholas Verstraeten   </span>    </li>
+          <li className={styles.dateItem}> April 12 2024  </li>
 
   
 
