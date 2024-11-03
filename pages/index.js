@@ -52,19 +52,19 @@ export default function Home() {
 
     <div className={styles.exhibitionMiddle}>
 
-    <ul className={styles.exhibitionList}> 
-    <li className={styles.exhibitionItem}> <i> Upcoming </i> </li> <br/> 
-    </ul>
-    <ul className={styles.exhibitionList}> 
+    {/* <ul className={styles.exhibitionList}>  */}
+    {/* <li className={styles.exhibitionItem}> <i> Upcoming </i> </li> <br/>  */}
+    {/* </ul> */}
+    {/* <ul className={styles.exhibitionList}>  */}
 
-          <li className={styles.exhibitionItem}> <span className={styles.exhibition}>  TBA   </span>    </li>
+          {/* <li className={styles.exhibitionItem}> <span className={styles.exhibition}>  TBA   </span>    </li> */}
           {/* <li className={styles.dateItem}> April  2024  </li> */}
 
   
 
           {/* <li className={styles.exhibitionItem}> <i>2022</i>  </li> */}
            {/* <li className={styles.imgHeaderItem}><a href="/imgs/JPRelease.pdf"> Press Release </a></li> */}
-      </ul>
+      {/* </ul> */}
 
       <ul className={styles.dateList}> 
         <li className={styles.exhibitionItem}>   </li>
